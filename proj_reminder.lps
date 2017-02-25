@@ -19,7 +19,8 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="42"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="84"/>
         <CursorPos X="32" Y="106"/>
         <UsageCount Value="65"/>
         <Loaded Value="True"/>
@@ -116,7 +117,6 @@
       <Unit14>
         <Filename Value="mylib.pas"/>
         <UnitName Value="MyLib"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="10"/>
         <CursorPos X="2" Y="31"/>

@@ -12,7 +12,7 @@ object Form1: TForm1
   FormStyle = fsSystemStayOnTop
   OnCreate = FormCreate
   OnShow = FormShow
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.2.0'
   object PageControl1: TPageControl
     Left = 0
     Height = 290
@@ -24,13 +24,13 @@ object Form1: TForm1
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = '  Таймер  '
-      ClientHeight = 260
-      ClientWidth = 344
+      ClientHeight = 252
+      ClientWidth = 342
       object Image1: TImage
         Left = 0
-        Height = 260
+        Height = 252
         Top = 0
-        Width = 344
+        Width = 342
         Align = alClient
         Picture.Data = {
           0A544A706567496D6167651E3D0000FFD8FFE1001845786966000049492A0008
@@ -718,17 +718,17 @@ object Form1: TForm1
     end
     object TabSheet2: TTabSheet
       Caption = 'Будильник'
-      ClientHeight = 260
-      ClientWidth = 344
+      ClientHeight = 252
+      ClientWidth = 342
       Font.Color = 4933452
       ParentBiDiMode = False
       ParentFont = False
       TabVisible = False
       object Image2: TImage
         Left = 0
-        Height = 262
+        Height = 252
         Top = 0
-        Width = 345
+        Width = 342
         Align = alClient
         Picture.Data = {
           0A544A706567496D616765A14E0000FFD8FFE000104A46494600010100000100
@@ -2426,7 +2426,7 @@ object Form1: TForm1
     About.Description.Strings = (
       'Plays WAVE sounds in Windows or Linux'
     )
-    About.Title = 'About About About About About About About About About About About About About About About About About About About About PlaySound'
+    About.Title = 'About About About About About About About About About About About About About About About About About About About About About PlaySound'
     About.Height = 400
     About.Width = 400
     About.Font.Color = clNavy

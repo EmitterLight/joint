@@ -103,7 +103,7 @@ begin
   t2:=(FormatDateTime('hh:mm',(resT))); //преобразовываем время для команды at путем удаления секунд
   Label7.Caption:='Осталось: ' + timetostr(t1-t); //показываем сколько осталось
   ClrBtn.Enabled:=true;  //делаем кнопку "Сброс" активной
-  Timer2.Enabled:=true;  //включчаем наш второй таймер
+  Timer2.Enabled:=true;  //включаем наш второй таймер
 
   //пишем напоминание в файл
     if length(st) > 0 then
