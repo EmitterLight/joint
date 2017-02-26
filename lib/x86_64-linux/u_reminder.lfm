@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 626
+  Left = 423
   Height = 290
-  Top = 305
+  Top = 265
   Width = 348
   BorderStyle = bsSingle
   Caption = 'Напоминальщик'
