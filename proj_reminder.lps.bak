@@ -4,13 +4,13 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="16">
+    <Units Count="17">
       <Unit0>
         <Filename Value="proj_reminder.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="10" Y="10"/>
-        <UsageCount Value="65"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="39" Y="20"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,238 +19,252 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="42"/>
-        <CursorPos X="32" Y="106"/>
-        <UsageCount Value="65"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="136"/>
+        <CursorPos X="45" Y="138"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
+        <Filename Value="mymsgform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="my_msgform"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MyMsgForm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="15" Y="50"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\customtimer.pas"/>
         <UnitName Value="CustomTimer"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="139"/>
         <CursorPos Y="151"/>
-        <UsageCount Value="10"/>
-      </Unit2>
-      <Unit3>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\interfaces\gtk2\gtk2callback.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2900"/>
         <CursorPos Y="2916"/>
-        <UsageCount Value="10"/>
-      </Unit3>
-      <Unit4>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\interfaces\gtk2\gtk2widgetset.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2392"/>
         <CursorPos Y="2404"/>
-        <UsageCount Value="10"/>
-      </Unit4>
-      <Unit5>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\include\application.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1383"/>
         <CursorPos Y="1395"/>
-        <UsageCount Value="10"/>
-      </Unit5>
-      <Unit6>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
         <Filename Value="..\..\..\..\usr\share\fpcsrc\3.0.0\packages\fcl-process\src\process.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="131"/>
         <CursorPos X="24" Y="145"/>
-        <UsageCount Value="10"/>
-      </Unit6>
-      <Unit7>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\asyncprocess.pp"/>
         <UnitName Value="AsyncProcess"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="90"/>
         <CursorPos Y="102"/>
-        <UsageCount Value="9"/>
-      </Unit7>
-      <Unit8>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\include\control.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2114"/>
         <CursorPos Y="2125"/>
-        <UsageCount Value="9"/>
-      </Unit8>
-      <Unit9>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\include\buttoncontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="9"/>
-      </Unit9>
-      <Unit10>
+        <UsageCount Value="8"/>
+      </Unit10>
+      <Unit11>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\include\buttons.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="158"/>
         <CursorPos Y="170"/>
-        <UsageCount Value="9"/>
-      </Unit10>
-      <Unit11>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\include\wincontrol.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="5373"/>
         <CursorPos Y="5384"/>
-        <UsageCount Value="9"/>
-      </Unit11>
-      <Unit12>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\lclmessageglue.pas"/>
         <UnitName Value="LCLMessageGlue"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="101"/>
         <CursorPos Y="112"/>
-        <UsageCount Value="9"/>
-      </Unit12>
-      <Unit13>
+        <UsageCount Value="8"/>
+      </Unit13>
+      <Unit14>
         <Filename Value="..\..\..\..\usr\lib\lazarus\1.6\lcl\interfaces\gtk2\gtk2wsstdctrls.pp"/>
         <UnitName Value="Gtk2WSStdCtrls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2417"/>
         <CursorPos Y="2428"/>
-        <UsageCount Value="9"/>
-      </Unit13>
-      <Unit14>
-        <Filename Value="mylib.pas"/>
-        <UnitName Value="MyLib"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="10"/>
-        <CursorPos X="2" Y="31"/>
-        <UsageCount Value="16"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="8"/>
       </Unit14>
       <Unit15>
+        <Filename Value="mylib.pas"/>
+        <UnitName Value="MyLib"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="9"/>
+        <CursorPos X="44" Y="25"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
         <Filename Value="..\..\..\..\usr\share\fpcsrc\3.0.0\rtl\objpas\sysutils\sysutilh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="252"/>
         <CursorPos X="3" Y="263"/>
-        <UsageCount Value="10"/>
-      </Unit15>
+        <UsageCount Value="9"/>
+      </Unit16>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="12" Column="110"/>
+        <Caret Line="140" TopLine="123"/>
       </Position1>
       <Position2>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="129" TopLine="76"/>
+        <Caret Line="141" TopLine="123"/>
       </Position2>
       <Position3>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="70" Column="82" TopLine="70"/>
+        <Caret Line="142" TopLine="123"/>
       </Position3>
       <Position4>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="69" Column="8" TopLine="69"/>
+        <Caret Line="139" Column="30" TopLine="126"/>
       </Position4>
       <Position5>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="132" TopLine="128"/>
+        <Caret Line="131" Column="61" TopLine="125"/>
       </Position5>
       <Position6>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="136" Column="39" TopLine="123"/>
+        <Filename Value="mylib.pas"/>
+        <Caret Line="31" Column="2" TopLine="10"/>
       </Position6>
       <Position7>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="137" TopLine="123"/>
+        <Caret Line="70" Column="36" TopLine="59"/>
       </Position7>
       <Position8>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="138" Column="21" TopLine="123"/>
+        <Caret Line="155" Column="59" TopLine="149"/>
       </Position8>
       <Position9>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="137" Column="23" TopLine="127"/>
+        <Caret Line="139" Column="3" TopLine="137"/>
       </Position9>
       <Position10>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="167" Column="35" TopLine="155"/>
+        <Caret Line="160" Column="3" TopLine="146"/>
       </Position10>
       <Position11>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="170" Column="23" TopLine="152"/>
+        <Caret Line="139" Column="3" TopLine="128"/>
       </Position11>
       <Position12>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="181" Column="45" TopLine="159"/>
+        <Caret Line="160" Column="3" TopLine="158"/>
       </Position12>
       <Position13>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="176" Column="31" TopLine="161"/>
+        <Caret Line="159" Column="3" TopLine="157"/>
       </Position13>
       <Position14>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="189" Column="21" TopLine="170"/>
+        <Caret Line="75" Column="16" TopLine="64"/>
       </Position14>
       <Position15>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="135" Column="28" TopLine="121"/>
+        <Filename Value="proj_reminder.lpr"/>
+        <Caret Line="10" Column="32"/>
       </Position15>
       <Position16>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="134" Column="22" TopLine="121"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Column="15"/>
       </Position16>
       <Position17>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="135" Column="20" TopLine="122"/>
+        <Filename Value="proj_reminder.lpr"/>
+        <Caret Line="10" Column="25"/>
       </Position17>
       <Position18>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="134" Column="21" TopLine="121"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="25" Column="7" TopLine="13"/>
       </Position18>
       <Position19>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="94" Column="18" TopLine="73"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="15" Column="13" TopLine="4"/>
       </Position19>
       <Position20>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="93" Column="15" TopLine="80"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="16" Column="13" TopLine="4"/>
       </Position20>
       <Position21>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="188" Column="11" TopLine="164"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="20" Column="15" TopLine="9"/>
       </Position21>
       <Position22>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="139" TopLine="123"/>
+        <Caret Line="75" Column="15" TopLine="64"/>
       </Position22>
       <Position23>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="140" TopLine="123"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Column="15"/>
       </Position23>
       <Position24>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="141" TopLine="123"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="22" Column="37" TopLine="9"/>
       </Position24>
       <Position25>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="138" Column="11" TopLine="125"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Column="15"/>
       </Position25>
       <Position26>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="186" Column="6" TopLine="170"/>
+        <Filename Value="proj_reminder.lpr"/>
+        <Caret Line="10" Column="24"/>
       </Position26>
       <Position27>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="140" TopLine="123"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="16" Column="43"/>
       </Position27>
       <Position28>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="141" TopLine="123"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="49" Column="71" TopLine="27"/>
       </Position28>
       <Position29>
         <Filename Value="u_reminder.pas"/>
-        <Caret Line="142" TopLine="123"/>
+        <Caret Line="75" Column="5" TopLine="58"/>
       </Position29>
       <Position30>
-        <Filename Value="u_reminder.pas"/>
-        <Caret Line="139" Column="30" TopLine="126"/>
+        <Filename Value="mymsgform.pas"/>
+        <Caret Line="48" Column="35" TopLine="34"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

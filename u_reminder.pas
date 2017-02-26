@@ -20,12 +20,13 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    Button1: TButton;
+    AlarmBtn: TButton;
+    AlarmBtn1: TButton;
+    AlarmBtn2: TButton;
     Edit4: TEdit;
     Image1: TImage;
-    Image2: TImage;
+    BackGrndImg: TImage;
     ecntLbl: TLabel;
-    SetAlarmBtn: TBitBtn;
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
@@ -49,6 +50,9 @@ type
     UpDown1: TUpDown;
     UpDown2: TUpDown;
     UpDown3: TUpDown;
+    procedure AlarmBtn1Click(Sender: TObject);
+    procedure AlarmBtn2Click(Sender: TObject);
+    procedure AlarmBtnClick(Sender: TObject);
     procedure ClrBtnClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -72,6 +76,7 @@ var
 
 
 implementation
+uses MyMsgForm;
 
 {$R *.lfm}
 
@@ -132,6 +137,21 @@ begin
   DeleteFile('alarm.txt');
 end;
 
+procedure TForm1.AlarmBtnClick(Sender: TObject);
+begin
+  showAlertForm('Этo необходимо допилить!',0,3);
+end;
+
+procedure TForm1.AlarmBtn1Click(Sender: TObject);
+begin
+    showAlertForm('И это тоже',3,3);
+end;
+
+procedure TForm1.AlarmBtn2Click(Sender: TObject);
+begin
+    showAlertForm('Это так же...',1,3);
+end;
+
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
@@ -147,6 +167,7 @@ procedure TForm1.FormShow(Sender: TObject);
 begin
   Edit4.TextHint:='О чем напомнить?';
 end;
+
 
 
 procedure TForm1.Timer2Timer(Sender: TObject);
