@@ -18,6 +18,7 @@ type
     ImageList1: TImageList;
     Label1: TLabel;
     Timer1: TTimer;
+    procedure backgroundClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure Timer1StopTimer(Sender: TObject);
 
@@ -55,6 +56,7 @@ procedure Tmy_msgform.FormShow(Sender: TObject);
 begin
   timer1.Enabled:=true;
 end;
+
 
 procedure Tmy_msgform.Timer1StopTimer(Sender: TObject);
 begin

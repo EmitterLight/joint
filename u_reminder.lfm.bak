@@ -1957,6 +1957,24 @@ object Form1: TForm1
         OnClick = AlarmBtnClick
         TabOrder = 0
       end
+      object AlarmBtn1: TButton
+        Left = 16
+        Height = 25
+        Top = 104
+        Width = 83
+        Caption = 'Установить'
+        OnClick = AlarmBtn1Click
+        TabOrder = 1
+      end
+      object AlarmBtn2: TButton
+        Left = 16
+        Height = 25
+        Top = 144
+        Width = 83
+        Caption = 'Установить'
+        OnClick = AlarmBtn2Click
+        TabOrder = 2
+      end
     end
   end
   object Timer1: TTimer

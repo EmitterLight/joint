@@ -17,6 +17,7 @@ object my_msgform: Tmy_msgform
     Top = 0
     Width = 319
     Align = alClient
+    OnClick = backgroundClick
     Picture.Data = {
       0A544A706567496D616765CF6E0000FFD8FFE000104A46494600010101004800
       480000FFDB0043000302020302020303030304030304050805050404050A0707
